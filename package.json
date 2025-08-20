@@ -1,0 +1,37 @@
+{
+  "name": "task_manager",
+  "version": "1.0.0",
+  "description": "A Task Manager API built with Node.js, Express, and MongoDB for managing tasks with authentication and authorization features.",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "dev": "cross-env NODE_ENV=development nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "task-manager",
+    "todo-app",
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "api",
+    "rest-api",
+    "authentication",
+    "authorization",
+    "jwt",
+    "bcrypt"
+  ],
+  "author": "Tikesh Sahu",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cross-env": "^10.0.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1"
+  }
+}
